@@ -1,0 +1,57 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: #020617;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+textarea {
+  width: 100%;
+  background: #020617;
+  color: #e5e7eb;
+  border: 1px solid #334155;
+  padding: 10px;
+}
+
+pre {
+  background: #020617;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.ad-slot {
+  background: #1e293b;
+  padding: 15px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.ad-placeholder {
+  opacity: 0.5;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.error {
+  color: #f87171;
+}
+
+.muted {
+  opacity: 0.8;
+}

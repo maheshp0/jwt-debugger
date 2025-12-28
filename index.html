@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JWT Debugger & Security Inspector | Decode, Verify & Generate JSON Web Tokens</title>
+
+  <meta name="description"
+        content="JWT Debugger to decode, inspect, and analyze JSON Web Tokens (RFC 7519) used in OAuth 2.0, OpenID Connect, cloud security, and enterprise identity platforms such as Azure AD." />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- GOOGLE ADSENSE (ENABLE ONLY AFTER APPROVAL)
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    data-ad-client="ca-pub-XXXXXXXXXXXX"
+    crossorigin="anonymous"></script>
+  -->
+</head>
+
+<body>
+<main class="container">
+
+<header>
+  <h1>JSON Web Token (JWT) Debugger & Security Inspector</h1>
+  <p>
+    Decode, verify, and analyze JSON Web Tokens (JWTs) —
+    an open industry standard defined in <strong>RFC 7519</strong>
+    for securely representing claims between two parties.
+  </p>
+</header>
+
+<!-- AD SLOT (TOP – HIGH CPC SAFE ZONE) -->
+<div class="ad-slot">
+  <div class="ad-placeholder">Advertisement</div>
+</div>
+
+<section class="card">
+  <label for="jwtInput">Paste JSON Web Token (JWT)</label>
+  <textarea id="jwtInput" placeholder="eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9..." rows="5"></textarea>
+  <div id="error" class="error"></div>
+</section>
+
+<section class="card">
+  <h2>Decoded JWT</h2>
+
+  <h3>Header</h3>
+  <pre id="headerOut"></pre>
+
+  <h3>Payload</h3>
+  <pre id="payloadOut"></pre>
+
+  <h3>Signature</h3>
+  <pre id="signatureOut"></pre>
+</section>
+
+<section class="card">
+  <h2>Security Analysis</h2>
+  <ul id="securityFindings"></ul>
+</section>
+
+<p class="muted">
+This JWT debugger runs entirely in your browser.
+<strong>No JSON Web Tokens are stored, logged, or transmitted</strong>
+outside of your device. This tool is commonly used for
+<strong>OAuth 2.0</strong>, <strong>OpenID Connect</strong>,
+<strong>API authentication</strong>,
+<strong>cloud security</strong>,
+and <strong>enterprise identity and access management (IAM)</strong>.
+</p>
+
+<!-- AD SLOT (BOTTOM – SAFE PLACEMENT) -->
+<div class="ad-slot">
+  <div class="ad-placeholder">Advertisement</div>
+</div>
+
+<section class="card">
+  <h2>Enterprise IAM & API Security Resources</h2>
+  <ul>
+    <li>OAuth 2.0 & OpenID Connect training for enterprise environments</li>
+    <li>Cloud identity security (Azure AD, Entra ID, AWS IAM)</li>
+    <li>API security, JWT hardening, and zero-trust architecture</li>
+  </ul>
+  <p class="muted"><small>Some links on this page may be affiliate links.</small></p>
+</section>
+
+<footer class="footer">
+  <p>
+    <a href="about.html">About</a> |
+    <a href="privacy.html">Privacy</a> |
+    <a href="contact.html">Contact</a>
+  </p>
+  <p>© <span id="year"></span> JWT Debugger</p>
+</footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
